@@ -14,4 +14,4 @@
 - Special Effect on About Dev's Page (only appears on Dev's Birthday)
 
 ### Download
- - APK : https://github.com/m2k6artworks/TrendsAppWebview/raw/master/app/release/smartyzen2020.apk
+ - APK File : https://github.com/m2k6artworks/TrendsAppWebview/raw/master/app/release/smartyzen2020.apk
