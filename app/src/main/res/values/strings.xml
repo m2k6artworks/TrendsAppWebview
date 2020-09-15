@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Smartyzen</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="wa"><![CDATA[ Whatsapp ]]></string>
+    <string name="ig"><![CDATA[ Instagram ]]></string>
+    <string name="email"><![CDATA[ Email ]]></string>
+
+</resources>

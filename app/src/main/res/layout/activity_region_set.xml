@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegionSet">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarthemer"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbar_text_tr"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/info"
+        android:padding="10dp"
+        android:gravity="center"
+        style="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
+        android:layout_below="@id/toolbarthemer"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/info">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/info"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <RadioGroup
+            android:id="@+id/rgr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/worldwide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Worldwide"
+                android:padding="15dp"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
+                android:onClick="worldwide"
+                android:buttonTint="#F44336"
+                />
+
+            <RadioButton
+                android:id="@+id/brazil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Brazil"
+                android:padding="15dp"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
+                android:onClick="brazil"
+                android:buttonTint="#F44336"/>
+
+            <RadioButton
+                android:id="@+id/canada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Canada"
+                android:padding="15dp"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
+                android:onClick="canada"
+                android:buttonTint="#F44336"/>
+
+            <RadioButton
+                android:id="@+id/egypt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Egypt"
+                android:padding="15dp"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
+                android:onClick="egypt"
+                android:buttonTint="#F44336"/>
+
+            <RadioButton
+                android:id="@+id/france"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="France"
+                android:padding="15dp"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
+                android:onClick="france"
+                android:buttonTint="#F44336"/>
+
+            <RadioButton
+                android:id="@+id/germany"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Germany"
+                android:padding="15dp"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
+                android:onClick="germany"
+                android:buttonTint="#F44336"/>
+
+            <RadioButton
+                android:id="@+id/india"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="India"
+                android:padding="15dp"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
+                android:onClick="india"
+                android:buttonTint="#F44336"/>
+
+            <RadioButton
+                android:id="@+id/indonesia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Indonesia"
+                android:padding="15dp"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
+                android:onClick="indonesia"
+                android:buttonTint="#F44336"/>
+
+            <RadioButton
+                android:id="@+id/italy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Italy"
+                android:padding="15dp"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
+                android:onClick="italy"
+                android:buttonTint="#F44336"/>
+
+            <RadioButton
+                android:id="@+id/japan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Japan"
+                android:padding="15dp"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
+                android:onClick="japan"
+                android:buttonTint="#F44336"/>
+
+            <RadioButton
+                android:id="@+id/mexico"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mexico"
+                android:padding="15dp"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
+                android:onClick="mexico"
+                android:buttonTint="#F44336"/>
+
+            <RadioButton
+                android:id="@+id/nigeria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nigeria"
+                android:padding="15dp"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
+                android:onClick="nigeria"
+                android:buttonTint="#F44336"/>
+
+            <RadioButton
+                android:id="@+id/philiphines"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Philiphines"
+                android:padding="15dp"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
+                android:onClick="philiphines"
+                android:buttonTint="#F44336"/>
+
+            <RadioButton
+                android:id="@+id/russia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Russia"
+                android:padding="15dp"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
+                android:onClick="russia"
+                android:buttonTint="#F44336"/>
+
+            <RadioButton
+                android:id="@+id/southkorea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="South Korea"
+                android:padding="15dp"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
+                android:onClick="southkorea"
+                android:buttonTint="#F44336"/>
+
+            <RadioButton
+                android:id="@+id/thailand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thailand"
+                android:padding="15dp"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
+                android:onClick="thailand"
+                android:buttonTint="#F44336"/>
+
+            <RadioButton
+                android:id="@+id/turkey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Turkey"
+                android:padding="15dp"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
+                android:onClick="turkey"
+                android:buttonTint="#F44336"/>
+
+            <RadioButton
+                android:id="@+id/unitedkingdom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="United Kingdom"
+                android:padding="15dp"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
+                android:onClick="unitedkingdom"
+                android:buttonTint="#F44336"/>
+
+            <RadioButton
+                android:id="@+id/unitedstates"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="United States"
+                android:padding="15dp"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
+                android:onClick="unitedstates"
+                android:buttonTint="#F44336"/>
+
+            <RadioButton
+                android:id="@+id/vietnam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vietnam"
+                android:padding="15dp"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
+                android:onClick="vietnam"
+                android:buttonTint="#F44336"/>
+
+        </RadioGroup>
+</LinearLayout>
+</ScrollView>
+
+</RelativeLayout>

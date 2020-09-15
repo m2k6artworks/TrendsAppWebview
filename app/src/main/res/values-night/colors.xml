@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#141414</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#F1F1F1</color>
+    <color name="white">#008577</color>
+    <color name="black">#000</color>
+    <color name="wa">#128c7e</color>
+    <color name="ig">#f77737</color>
+    <color name="em">#b23121</color>
+</resources>

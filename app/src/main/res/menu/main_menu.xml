@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+        <item android:title="Theme"
+            android:id="@+id/menu_theme"
+            />
+        <item android:title="Region"
+            android:id="@+id/menu_region"
+            />
+        <item android:title="About"
+            android:id="@+id/menu_about"
+            />
+        <item android:title="Exit"
+            android:id="@+id/exit"
+            />
+</menu>
